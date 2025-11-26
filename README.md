@@ -5,31 +5,6 @@
 This project analyzes how trader behavior (profit, risk, volume, and trade timing) aligns or diverges from overall crypto market sentiment (Fear to Greed). Using **EDA**, **statistical testing**, and **machine learning models** (Random Forest & XGBoost), the study uncovers hidden behavioral patterns and predictive signals that improve trading strategy decisions.
 
 
-##  Repository Structure
-
-ds_saswata_sarkar/
-│
-├── notebook_1.ipynb            # Main Colab notebook (full workflow)
-├── notebook_2.ipynb            # Optional notebook (additional analysis)
-│
-├── csv_files/                  # All data outputs (processed CSVs)
-│   ├── processed_merged.csv
-│   └── model_metrics_summary.csv
-│
-├── outputs/                    # All generated charts & visual outputs
-│   ├── ROC Curve.png
-│   ├── Correlation Heatmap.png
-│   ├── Profit Distribution.png
-│   └── …
-│
-├── Final_Project_Report_Complete.docx   # Full industry-style project report
-├── ds_report.pdf                         # Summarized report (optional)
-│
-└── README.md
-```
-
----
-
 ##  Project Objectives
 
 * Analyze how trader actions change across **sentiment states** (Fear → Greed).
